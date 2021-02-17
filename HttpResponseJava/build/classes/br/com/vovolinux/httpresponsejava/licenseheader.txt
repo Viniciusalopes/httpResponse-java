@@ -1,0 +1,14 @@
+<#if licenseFirst??>
+${licenseFirst}
+</#if>
+${licensePrefix} License   : MIT - Copyright 2021 Viniciusalopes (Vovolinux) <suporte@vovolinux.com.br>
+${licensePrefix} Author    : Vinicius Lopes
+${licensePrefix} Date      : ${date?date?string("dd/MM/yyyy")} ${time?time?string("HH:mm:ss")} 
+${licensePrefix} Project   : HashJava
+${licensePrefix} Version   : 0.0.1
+${licensePrefix} Purpose   :
+${licensePrefix} Changelog : 2020-01-00 v.0.0.2 (Vinicius Lopes)
+<#if licenseLast??>
+${licenseLast}
+</#if>
+
