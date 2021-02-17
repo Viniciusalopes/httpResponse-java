@@ -1,2 +1,2 @@
-# httpResponse-json
-Java Library for httpResponse in json
+# httpResponse-java
+Java Library for httpResponse in java
