@@ -36,7 +36,7 @@ public class AppHttpResponse {
      * @param e Exception para obter o texto da mensagem.
      * @return
      */
-    public static String getErrorMessage(Exception e) {
+    private static String getErrorMessage(Exception e) {
         return (e.getMessage() != null) ? e.getMessage()
                 : ((e.getCause() != null) ? e.getCause().getMessage()
                 : ((e.getLocalizedMessage() != null) ? e.getLocalizedMessage() : e.getStackTrace().toString()));
